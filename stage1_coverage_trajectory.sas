@@ -31,11 +31,8 @@
     Therefore:
         health_cluster*time 1 0   ->  HIGH
         health_cluster*time 0 1   ->  MEDIUM
-    The %SLOPES macro below encodes this mapping once, correctly, so the
-    High/Medium labels cannot be swapped between vaccines. The first
-    ESTIMATE in the macro carries the /E option, which prints the actual
-    coefficient vector SAS applies — inspect it once in the log to
-    confirm the column order on your data, then trust the rest.
+    The ESTIMATE statements in %fit_vaccine below encode this mapping once, correctly, so the
+    High/Medium labels cannot be swapped between vaccines. 
 ==========================================================================*/
 
 /*--------------------------------------------------------------------------
