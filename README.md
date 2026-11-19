@@ -9,7 +9,7 @@ The pipeline runs in three stages. Stage 1 and the counterfactual step use
 
 ```
 Stage 1 (SAS)        Stage 2 (Python)            Stage 3 (Python)
-coverage GLMM   -->  counterfactual + debt  -->  panel regressions
+coverage LMM   -->  counterfactual + debt  -->  panel regressions
 fixed+random         validation + immunity        debt -> disease burden
 effects export       debt per country-year        + sensitivity checks
 ```
