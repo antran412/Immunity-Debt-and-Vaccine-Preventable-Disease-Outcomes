@@ -1,5 +1,5 @@
 /*==========================================================================
-  STAGE 1 — Vaccination coverage trajectories (piecewise GLMM)
+  STAGE 1 — Vaccination coverage trajectories (piecewise LMM)
   Paper 2: Immunity debt and vaccine-preventable disease outcomes
 --------------------------------------------------------------------------
   PURPOSE
